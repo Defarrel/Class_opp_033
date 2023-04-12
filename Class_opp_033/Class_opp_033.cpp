@@ -25,5 +25,18 @@ private:
 	string kodemk;
 	string namamk;
 	int sks;
+public:
+	void inputandata();
+	void tampilkandata();
 };
+
+void Matakuliah::inputandata() {
+	cout << "Masukan Kode MK : ";
+	cin >> kodemk;
+	cout << "Masukan Nama MK : ";
+	cin >> namamk;
+	cout << "Masukan SKS : ";
+	cin >> sks;
+}
+
 
