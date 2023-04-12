@@ -45,3 +45,8 @@ void Matakuliah::tampilkandata() {
 	cout << "SKS : " << sks << endl;
 }
 
+int main() {
+	Mahasiswa mhs;
+	Matakuliah mk;
+
+}
