@@ -39,4 +39,9 @@ void Matakuliah::inputandata() {
 	cin >> sks;
 }
 
+void Matakuliah::tampilkandata() {
+	cout << "KodeMK : " << kodemk << endl;
+	cout << "NamaMK : " << namamk << endl;
+	cout << "SKS : " << sks << endl;
+}
 
